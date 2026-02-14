@@ -52,6 +52,7 @@ datasources:
           columns.hidden: "true"
       latency_ns:
         annotations:
+          template: duration
           description: DNS latency in nanoseconds, calculated as the difference between the DNS response and the corresponding query.
       latency_ns_raw:
         annotations:
